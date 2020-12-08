@@ -36,7 +36,10 @@ a {
 
 /* Aqui se guardan las caracteristicas basicas de la pagina, excluyendo el body */
 .contenedor {
-  background-color: #C6D0D1;
+  /* background-color: #DFDFDF; */
+  background: linear-gradient(180deg,
+    #FEFEFE 5%,
+    #DFDFDF 90%);
   width: 1125px;
   display: flex;
   justify-content:center;
