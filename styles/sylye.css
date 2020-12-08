@@ -1,0 +1,133 @@
+body{
+  background-color: white;
+  margin: 0 20px;
+}
+
+/* subrayamos los span */
+span {
+  text-decoration: underline dotted;
+}
+
+/* decoramos los anchor. hay 3 tipos. en negrita, subrayados y sin subrayar. */
+
+a {
+  color: #ED3DA9;
+}
+
+.anchorStrong {
+  font-size: large;
+  font-weight: bold;
+}
+
+.anchorNav {
+  text-decoration : none;
+}
+
+
+
+/* En esta clase definimos las caracteristicas principales de las cajas blancas */
+.cajaBlanca{
+  background-color: white;
+  border-radius: 2em;
+  padding: 0.5em 1.8em 1.8em 1.8em;
+  margin: 1em;
+  box-shadow: 6px 6px 3px #A6AAAD;
+}
+
+/* Aqui se guardan las caracteristicas basicas de la pagina, excluyendo el body */
+.contenedor {
+  background-color: #C6D0D1;
+  width: 1125px;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+h3, h3 div {
+  height: 2.5em;
+}
+h3 div p {
+  position: relative;
+  top: 0.8em;
+  color: #797C7C;
+  font-size: 1.5em;
+}
+.parrafoTitulo {
+  position: relative;
+
+  color: #797C7C;
+}
+
+
+/* header de la pagina, con la imagen */
+header {
+  width: 1068px;
+  margin-bottom: 15px;
+  height: 235px;
+  border-radius: 0 0 2em 2em;
+  background-color: white;
+  box-shadow: 6px 6px 3px #A6AAAD;
+
+}
+header figure img {
+  width:1030px;
+  margin: 0 auto;
+  display: flex;
+  background-color: blue;
+}
+
+/* estilos de aside que incluye los menus de navegacion */
+aside {
+  width: 300px
+}
+
+nav ul li {
+  padding: 13px 0;
+  border-bottom: 1px dotted #C6D0D1;
+  list-style-type: square;
+}
+
+/* estilos del div que contiene las secciones */
+.secciones {
+  width: 800px;
+}
+
+/* estos estilos controlan el padding de las secciones */
+
+.paddingDerecha {
+  padding-right: 100px;
+}
+
+.paddingIzquierda {
+  padding-left: 100px;
+}
+
+/* organizamos los margenes de los parrafos */
+
+section p {
+  margin: 25px 0 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*voy a utilizar esto para hacer la lineas diagonales, lo que voy a hacer va a ser crear un div con el fondo de negro a blanco y anidarle otro con el rallado*/
+
+.bg-lineas-diagonales{
+  background: repeating-linear-gradient(135deg,
+      rgba(255, 255, 255, 1) 10px,
+      rgba(255, 255, 255, 1) 20px,
+      rgba(0, 0, 0, 0)20px,
+      rgba(0, 0, 0, 0) 30px);
+
+}
+
+.degradadoAAbajo{
+  background: linear-gradient(to bottom, #C6D0D1, white);
+}
